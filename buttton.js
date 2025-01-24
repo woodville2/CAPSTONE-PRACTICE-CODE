@@ -1,16 +1,5 @@
 "use strict";
 
-document.getElementById("customerSatBtn").addEventListener("click", () => {
-  const count = localStorage.getItem("count");
-  if (!count) {
-    localStorage.setItem("count", "1");
-  } else {
-    const newCount = +count + 1;
-    localStorage.setItem("count", newCount);
-  }
-  window.location.href = "browns.html";
-});
-
 const aboutUs = [
   "SECOND GENERATION",
   "DOING BUSINESS FOR OVER 30 YEARS",

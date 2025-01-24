@@ -1,0 +1,46 @@
+.carousel-control-next-icon {
+  background-image: url("proicons--chevron-right.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("proicons--chevron-left.svg");
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+footer {
+  color: beige;
+  margin-top: auto;
+}
+
+button {
+    margin-left: 50px;
+    background-color: gray;
+    font-size: medium;
+}
+
+.card {
+    
+    border: 3px solid blue;
+}
+
+.card-container {
+    
+  display: flex;
+  flex-direction: column;
+   margin-left: 75px;
+}
+
+.card-container-b {
+   
+  margin-left: 95px;
+  justify-content: right;
+  text-align: center;
+  width: fit-content;
+margin-left: 75px;
+}
+
+   
